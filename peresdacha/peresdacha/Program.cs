@@ -12,7 +12,7 @@ namespace peresdacha
         {
             int i;
            
-            int g = 15;
+            int g = 1000000;
             for ( i = 0; i <= 4; i++)
             {
                 g = g - 1;
@@ -39,7 +39,7 @@ namespace peresdacha
             }
             catch
             {
-                Console.WriteLine("error");
+                
             }
             Console.ReadKey();
 
